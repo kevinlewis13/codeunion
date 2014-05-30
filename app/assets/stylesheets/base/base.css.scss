@@ -6,12 +6,10 @@ input:focus, textarea:focus {
 	outline: none;
 }
 
-.page-title {
-	padding: 2rem 0;
+.welcome-header {
+	background: none;
 }
 
-.welcome-header {
-	margin-top: -2em;
-	margin-bottom: 1em;
-	background: none;
+main {
+	padding-top: 1em;
 }
