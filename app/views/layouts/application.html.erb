@@ -22,14 +22,12 @@
     <%= render 'layouts/hamburgerNav' %>
   </div>
 
-
-
   <div class="large-3 columns">
     <%= render 'layouts/sliderNav' %>
   </div>
 
   <main class="large-9 columns">
-      <h2><%= yield(:pagetitle) %></h2>
+      <h2 class="page-title"><%= yield(:pagetitle) %></h2>
       <%= yield %>
       <% flash.each do |name, msg| %>
         <%= content_tag(:div, msg, class: "alert") %>

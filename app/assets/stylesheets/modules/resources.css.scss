@@ -1,7 +1,7 @@
 .resource-post, .excerpt {
 	background-color: #E5E5E5;
 	border-top: solid 0.3em #662B2B;
-	margin-top: 1em;
+	margin-bottom: 1em;
 	overflow: auto;
 	clear: both;
 }
@@ -62,3 +62,7 @@
 .resource-post > p:not(.exerpt-category) {
    padding: 2em 0 5em 0;
  }
+
+.resource-comments textarea {
+	margin-bottom: 1em;
+}

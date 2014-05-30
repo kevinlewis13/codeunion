@@ -1,6 +1,5 @@
 body > header {
 	background-color: #242F3A;
-	color: #E5E5E5;
 	display: -webkit-flex;
 	display: flex;
 	align-items: center;
@@ -8,8 +7,11 @@ body > header {
 	flex-wrap: nowrap;
 }
 
+.logo {
+	padding-left: 1rem;
+}
+
 header a:not(.button) {
-	color: #E5E5E5;
 	display: inline-block;
 	margin-right: 1em;
 }

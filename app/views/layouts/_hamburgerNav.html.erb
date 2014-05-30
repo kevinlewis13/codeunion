@@ -11,9 +11,9 @@
 
       <ul>
         <% if user_signed_in? %>
-          <li class="navItem-mobile add-resource"><%= link_to '+ Resource', new_resource_path%></li>
+          <li class="navItem-mobile btn-primary"><%= link_to '+ Resource', new_resource_path%></li>
         <% else %>
-          <li class="navItem-mobile add-resource"><%= link_to '+ Resource', new_user_session_path %></li>
+          <li class="navItem-mobile btn-primary"><%= link_to '+ Resource', new_user_session_path %></li>
         <% end %>
       <ul>
 

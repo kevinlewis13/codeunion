@@ -1,6 +1,6 @@
 <%= content_for(:pagetitle, "#{@language.name}") %>
 
-<%= link_to "Top #{language.name} #{@category.name}", %>
+<%= link_to "Top #{language.name} #{@category.name}", :class => "page-title"%>
 
 <article class="resource-post excerpt">
 	<% @resources.each do |resource| %>

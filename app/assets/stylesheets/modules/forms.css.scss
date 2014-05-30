@@ -5,10 +5,6 @@
 	position: relative;
 }
 
-input:focus, textarea:focus {
-	outline: none;
-}
-
 .form input, .form textarea, .form label {
 	display: block;
 	margin-top: 0.25em;
@@ -22,6 +18,10 @@ input[type="email"], input[type="password"] {
 	width: 50%;
 }
 
+.form textarea, .form input[type="text"] {
+	width: 100%;
+}
+
 .form input[type="checkbox"] {
 	display: inline-block;
 	margin-top: 1em;
@@ -29,11 +29,6 @@ input[type="email"], input[type="password"] {
 
 .form input[type="checkbox"] + label {
 	display: inline-block;
-}
-
-.form textarea, .form input[type="text"] {
-	width: 100%;
-	padding: .25em;
 }
 
 .form input[type="submit"], .form p {
@@ -51,11 +46,11 @@ input[type="email"], input[type="password"] {
 	font-size: 1em;
 	text-transform: capitalize;
 	outline: none;
-
+	width: 50%;
 }
 
-
-// .form p{
-// 	mar
-// }
-
+textarea {
+	font-family: "Sofia_Pro_Light";
+	font-size: 1em;
+	line-height: auto;
+}
