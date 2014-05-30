@@ -27,11 +27,11 @@
   </div>
 
   <main class="large-9 columns">
-      <h2 class="page-title"><%= yield(:pagetitle) %></h2>
-      <%= yield %>
-      <% flash.each do |name, msg| %>
-        <%= content_tag(:div, msg, class: "alert") %>
-      <% end %>
+    <h2 class="page-title"><%= yield(:pagetitle) %></h2>
+    <%= yield %>
+    <% flash.each do |name, msg| %>
+      <%= content_tag(:div, msg, class: "alert") %>
+    <% end %>
   </main>
 
 </body>
