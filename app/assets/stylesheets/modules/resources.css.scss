@@ -51,12 +51,23 @@
 	text-align: center;
 }
 
+.vote a {
+	color: #262525;
+	&:hover {
+		color: #fff;
+	}
+}
+
 .vote-count {
 	background-color: #fff;
 	font-family: "League_Gothic";
 	color: #662b2b;
 	margin: 0.25em 0;
 	padding: 0.25em 0;
+}
+
+.upVote {
+	color: #662b2b;
 }
 
 .resource-post > p:not(.exerpt-category) {
