@@ -1,4 +1,4 @@
-  <h2>Edit <%= resource_name.to_s.humanize %></h2>
+  <h2 class="page-title">Edit <%= resource_name.to_s.humanize %></h2>
 	<article class="form large-8 columns">
     <%= form_for(resource, :as => resource_name, :url => registration_path(resource_name), :html => { :method => :put }) do |f| %>
       <%= devise_error_messages! %>
@@ -12,11 +12,11 @@
       <%= f.label :current_password %> <small>(we need your current password to confirm your changes)</small>
       <%= f.password_field :current_password, class: "form-control" %>
 
-      <%= f.submit "Update" %>
+      <%= f.submit "Update", :class => "btn-secondary" %>
     <% end %>
 
     <p>Unhappy?</p>
-     <%= button_to "Cancel my account", registration_path(resource_name), :data => { :confirm => "Are you sure?" }, :method => :delete %>
+     <%= button_to "Cancel my account", registration_path(resource_name), :class => "btn-secondary", :data => { :confirm => "Are you sure?" }, :method => :delete %>
 
     <%= link_to "Back", :back, :class => "hide" %>
 
