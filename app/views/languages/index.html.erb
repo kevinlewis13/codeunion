@@ -2,7 +2,7 @@
 
 <% @languages.each do |language| %>
   <%= link_to '/' + language.name do %>
-    <h2><%= language.name %></h2>
+    <h2 class="page-title"><%= language.name %></h2>
     <p><%= link_to 'Edit', edit_language_path(language) %> </p>
   <% end %>
 <% end %>

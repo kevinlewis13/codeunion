@@ -9,6 +9,9 @@ Bundler.require(:default, Rails.env)
 
 module Codeunion
   class Application < Rails::Application
+    config.assets.paths << Rails.root.join("app", "assets", "fonts")
     I18n.enforce_available_locales = false
   end
 end
+
+

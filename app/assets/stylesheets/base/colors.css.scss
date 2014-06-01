@@ -19,40 +19,10 @@ header {
 }
 
 a {
-  color: #242F3A;
+  color: #E5E5E5;
   &:hover {
-  	color: #662b2b;
+  	color: #fff;
 	}
 }
 
-.navCategory > h2 {
-  background-color: #070707;
-
-  font-size: 2.618em;
-  color: #E5E5E5;
-}
-
-.navItem {
-  background-color: #262525;
-  color: #E5E5E5;
-  &:hover {
-    background-color: #070707;
-    color: #E5E5E5;
-  }
-}
-
-/* ADD RESOURCE */
-// a[href="/resources/new"] {
-//   background-color: $secondary-color;
-//   color: #E5E5E5;
-//   &:hover {
-//     color: #070707;
-//     background-color: #fff;
-//     border: 1px solid #070707;
-//   }
-// }
-
 /* Do we need this? - this is what changes the arrow color.  I made the class name more semantic and chose a better color*/
-.upVote {
-	color: #662b2b;
-}

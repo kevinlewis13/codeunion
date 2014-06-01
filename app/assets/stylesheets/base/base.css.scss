@@ -1,0 +1,15 @@
+textarea, input[type="text"], input[type="email"], input[type="password"] {
+	padding: 0.25em;
+}
+
+input:focus, textarea:focus {
+	outline: none;
+}
+
+.welcome-header {
+	background: none;
+}
+
+main {
+	padding-top: 1em;
+}
