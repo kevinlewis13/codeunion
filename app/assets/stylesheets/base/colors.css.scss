@@ -1,0 +1,28 @@
+/* DEFINE COLOR VARIABLES */
+$primary-color: #242F3A; // blue
+$secondary-color: #662B2B; // red
+$tertiary-color: #E5E5E5; // off-white
+$interactive-bg-color: #262525; // gray
+$black: #070707; // black
+$bg-color: #fff; // pure white
+
+html {
+  color: #070707;
+}
+
+body {
+  background-color: #fff;
+}
+
+header {
+	background-color: #242F3A;
+}
+
+a {
+  color: #E5E5E5;
+  &:hover {
+  	color: #fff;
+	}
+}
+
+/* Do we need this? - this is what changes the arrow color.  I made the class name more semantic and chose a better color*/
